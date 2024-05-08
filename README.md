@@ -1,6 +1,9 @@
 # Simple Generic Bloc
 It will help you implement Bloc by writing few dart file/code since it is Generic
 
+# Dependencies:
+    - equatable
+    - flutter_bloc
 # Usage:
   - add `generic_bloc.dart` in your project's `lib` folder.
 # Create a Bloc object:
