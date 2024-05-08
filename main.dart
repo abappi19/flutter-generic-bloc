@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:portfolio_builder/router.dart';
-import 'package:portfolio_builder/src/bloc/generic_bloc.dart';
-import 'package:portfolio_builder/src/bloc/theme/theme_bloc.dart';
+import 'package:portfolio_builder//generic_bloc.dart';
+import 'package:portfolio_builder/theme_bloc.dart';
 import 'package:portfolio_builder/src/utils/theme_list.dart';
 import 'injection.dart';
 
