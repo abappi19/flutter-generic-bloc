@@ -26,7 +26,6 @@ class CounterBloc extends SimpleGenericBloc<int?> {
   int? count;
 
   CounterBloc() : super(SimpleGenericState.initial(0)) {
-    AppService app = getIt<AppService>();
 
     on<GenericEvent>((event, emit) async {
       if (event is Increment) {
