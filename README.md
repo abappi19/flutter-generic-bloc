@@ -5,7 +5,7 @@ It will help you implement Bloc by writing few dart file/code since it is Generi
   - equatable
   - flutter_bloc
 # Usage:
-  - add `generic_bloc.dart` in your project's `lib` folder.
+  - add `generic_bloc.dart` in any path of your project's `lib` folder.
 # Create a Bloc object:
   - create a bloc dart file `eg:counter_bloc.dart` in your project.
   - extend class to `SimpleGenericBloc` and cast generic class within the object class you want to use  for the bloc.
